@@ -82,3 +82,4 @@ production:
   database: rails_watch_list_revisions_production
   username: rails_watch_list_revisions
   password: <%= ENV["RAILS_WATCH_LIST_REVISIONS_DATABASE_PASSWORD"] %>
+  url: <%= ENV["DATABASE_URL"] %>
